@@ -9,11 +9,21 @@ header {
   font-size: 14px;
   font-family: verdana;
   font-weight: bold;
+  background-color: white;
+  top: 0;
 
 }
-.container {
+div {
+display: block;
+
+}
+.content {
   display: flex;
-  top: 80px;
+  width: "1232px";
+  margin-left: 0 auto 78px auto;
+  padding-top: "116px";
+  margin-top: 120px;
+
 }
 .logo span {
   color: mediumaquamarine;
@@ -68,7 +78,4 @@ a {
     font-size: 30px;
     color: white;
     text-align: center;
-}
-p .narrative {
-      background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
 }
